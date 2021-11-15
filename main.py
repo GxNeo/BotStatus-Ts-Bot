@@ -9,7 +9,7 @@ import datetime
 from pyrogram import Client
 
 user_session_string = os.environ.get("user_session_string")
-user_session_string = os.environ.get("botname")
+botname = os.environ.get("botname")
 bots = [i.strip() for i in os.environ.get("bots").split(' ')]
 update_channel = os.environ.get("update_channel")
 status_message_ids = [int(i.strip()) for i in os.environ.get("status_message_id").split(' ')]
