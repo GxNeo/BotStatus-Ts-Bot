@@ -31,12 +31,12 @@ def main():
                 msg = user_client.get_history(bot, 1)[0]
                 if snt.message_id == msg.message_id:
                     print(f"[WARNING] @{bot} is down")
-                    edit_text += f"𝙱𝙾𝚃 𝙽𝙰𝙼𝙴    {botname} \n𝚄𝚂𝙴𝚁𝙽𝙰𝙼𝙴  @{bot}\n𝚂𝚃𝙰𝚃𝚄𝚂 ⛔️\n\n"
+                    edit_text += f"𝙱𝙾𝚃 𝙽𝙰𝙼𝙴    {Cofig.botname} \n𝚄𝚂𝙴𝚁𝙽𝙰𝙼𝙴  @{bot}\n𝚂𝚃𝙰𝚃𝚄𝚂 ⛔️\n\n"
                     #user_client.send_message("me",
                                              #f"@{bot} was down")
                 else:
                     print(f"[INFO] all good with @{bot}")
-                    edit_text += f"𝙱𝙾𝚃 𝙽𝙰𝙼𝙴    {botname} \n𝚄𝚂𝙴𝚁𝙽𝙰𝙼𝙴  @{bot}\n𝚂𝚃𝙰𝚃𝚄𝚂 ✅\n\n"
+                    edit_text += f"𝙱𝙾𝚃 𝙽𝙰𝙼𝙴    {Config.botname} \n𝚄𝚂𝙴𝚁𝙽𝙰𝙼𝙴  @{bot}\n𝚂𝚃𝙰𝚃𝚄𝚂 ✅\n\n"
                 user_client.read_history(bot)
 
             time_now = datetime.datetime.now(pytz.timezone('Asia/Kolkata'))
