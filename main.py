@@ -22,7 +22,7 @@ def main():
     with user_client:
         while True:
             print("[INFO] starting to check uptime..")
-            edit_text = f"🔰𝐓𝐫𝐚𝐜𝐤𝐞𝐱 𝐁𝐨𝐭𝐬 𝐒𝐭𝐚𝐭𝐮𝐬🔰\n\n__( All bots are checked automatically if any correction report it )__\n\n\n"
+            edit_text = f"🔰𝐓𝐫𝐚𝐜𝐤𝐞𝐱 𝐁𝐨𝐭𝐬 𝐒𝐭𝐚𝐭𝐮𝐬🔰\n\n__( **All bots are checked automatically if**/n **any correction report it** )__\n\n\n"
             for bot in bots:
                 print(f"[INFO] checking @{bot}")
                 snt = user_client.send_message(bot, '/start')
