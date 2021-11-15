@@ -34,7 +34,7 @@ You can deploy the bot using heroku
  
 - 👇 Press the deploy button.
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Ts-Bots/BOTSTATUS-TS-BOT)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/GxNeo/BOTSTATUS-TS-BOT)
 
 
 ## Channel
