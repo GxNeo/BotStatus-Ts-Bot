@@ -21,7 +21,7 @@ def main():
     with user_client:
         while True:
             print("[INFO] starting to check uptime..")
-            edit_text = f"🔰𝐓𝐫𝐚𝐜𝐤𝐬𝐭𝐮𝐝𝐢𝐨'𝐬 𝐁𝐨𝐭𝐬 𝐒𝐭𝐚𝐭𝐮𝐬🔰\n\n__( All bots are checked automatically if any correction report it )__\n\n\n"
+            edit_text = f"🔰𝐓𝐫𝐚𝐜𝐤𝐞𝐱 𝐁𝐨𝐭𝐬 𝐒𝐭𝐚𝐭𝐮𝐬🔰\n\n__( All bots are checked automatically if any correction report it )__\n\n\n"
             for bot in bots:
                 print(f"[INFO] checking @{bot}")
                 snt = user_client.send_message(bot, '/start')
@@ -31,7 +31,7 @@ def main():
                 msg = user_client.get_history(bot, 1)[0]
                 if snt.message_id == msg.message_id:
                     print(f"[WARNING] @{bot} is down")
-                    edit_text += f"𝙱𝙾𝚃 𝙽𝙰𝙼𝙴    {bot} \n𝚄𝚂𝙴𝚁𝙽𝙰𝙼𝙴  @{bot}\n𝚂𝚃𝙰𝚃𝚄𝚂 ❌\n\n"
+                    edit_text += f"𝙱𝙾𝚃 𝙽𝙰𝙼𝙴    {bot} \n𝚄𝚂𝙴𝚁𝙽𝙰𝙼𝙴  @{bot}\n𝚂𝚃𝙰𝚃𝚄𝚂 ⛔️\n\n"
                     #user_client.send_message("me",
                                              #f"@{bot} was down")
                 else:
