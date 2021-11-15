@@ -26,6 +26,10 @@
       "description": "Get this value from https://my.telegram.org",
       "value": ""
     },
+    "botname": {
+      "description": "Bot Fancy Name Enter",
+      "value": ""
+    },
     "update_channel": {
       "description": "The id of a channel to which i need to send the current status",
       "value": ""
