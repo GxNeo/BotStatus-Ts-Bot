@@ -39,11 +39,11 @@ You can deploy the bot using heroku
 
 ## Channel
 
-<b>[@Ts_Bots](https://telegram.me/ts_bots)</b>
+<b>[@Track Bots](https://telegram.me/trackbots)</b>
 
 ## Support 
 
-<b>[@Ts_Bots_Support](https://telegram.me/Ts_Bots_Support)</b>
+<b>[@TrackSupport](https://telegram.me/Tracksupport)</b>
 
 
 ### Thanks to
