@@ -3,7 +3,7 @@
 
 An open source telegram Bot Status bot
 
-- For demo you can check <b>[here](https://telegram.me/Ts_bots/8)</b> 
+- For demo you can check <b>[here](https://t.me/TrackBots/46)</b> 
 
 - The status is updated in every 1 hour
 
